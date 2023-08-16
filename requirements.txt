@@ -1,1 +1,36 @@
-# List of dependencies and required libraries
+# Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+
+# For Neural Network Extensions (e.g., efficient attention mechanisms)
+einops>=0.3.0
+
+# Image Processing and Visualization
+Pillow>=8.2.0
+opencv-python>=4.5.2
+matplotlib>=3.4.2
+
+# Data Handling and Utilities
+numpy>=1.21.0
+pandas>=1.3.0
+tqdm>=4.61.2
+
+# Configuration and Hyperparameters Management
+hydra-core>=1.1.0
+
+# Logging and Monitoring
+tensorboard>=2.5.0
+tensorboardX>=2.4
+
+# Metrics and Evaluation (For FID, KID, etc.)
+scipy>=1.7.0
+scikit-learn>=0.24.2
+
+# For efficient neural network operations, especially if using EfficientNet variants
+efficientnet_pytorch>=0.7.1
+
+# Potential libraries for other functionalities depending on exact requirements
+# For example, if using other pre-trained models or utilities:
+# huggingface/transformers, albumentations, etc.
+
